@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Urbanist:ital,wght@0,100;0,400;0,500;0,600;0,800;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&family=Urbanist:ital,wght@0,100;0,400;0,500;0,600;0,800;1,100&display=swap");
 
 
 :root {
   --primary-color: #202020;
   --secondary-color: #f1f1f1;
-  --action-color: #3b82f6;
+  --action-color: #06b6d4;
   --grey-color: #9a9a9a;
   --black-color: #282828;
   --white-color: #fff;
   --lynx-white-color: #f7f7f7;
   --violet-color: #5348c7;
-  --lynx-gray-color: #c5c5c5;
+  --lynx-gray-color: #f1efef;
   --font: "Open Sans", sans-serif;
   --xxl-size: 4rem;
   --xl-size: 2.5rem;

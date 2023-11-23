@@ -5,8 +5,8 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 
 const PlayerPage = () => {
   return (
-    <div>
-      {/* <Topbar /> */}
+    <div className="player-page">
+      <Topbar />
       <Sidebar />
       {/* <Navbar /> */}
     </div>

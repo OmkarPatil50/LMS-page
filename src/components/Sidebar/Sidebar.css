@@ -1,0 +1,103 @@
+:root {
+  --primary-color: #202020;
+  --secondary-color: #f1f1f1;
+  --action-color: #3b82f6;
+  --grey-color: #9a9a9a;
+  --black-color: #282828;
+  --white-color: #fff;
+  --lynx-white-color: #f7f7f7;
+  --violet-color: #5348c7;
+  --lynx-gray-color: #c5c5c5;
+  --xxl-size: 4rem;
+  --xl-size: 2.5rem;
+  --l-size: 2rem;
+  --m-size: 1.5rem;
+  --s-size: 1rem;
+  --xs-size: 0.5rem;
+  --xl-font: 3rem;
+  --light-weight: 300;
+  --regular-weight: 400;
+  --semibold-weight: 600;
+  --bold-weight: 700;
+  --black-weight: 900;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: var(--lynx-gray-color);
+  width: 4.5rem;
+}
+
+.sidebar-top,
+.sidebar-center,
+.sidebar-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sidebar-top,
+.sidebar-user {
+  flex-grow: 1;
+}
+
+.sidebar-center {
+  flex-grow: 3;
+  margin:2rem 0 7rem;
+}
+
+.logo{
+width: 3rem;
+height: 2rem;
+background: url('../../assets/logo.svg');
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.btn-sidebar {
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: gray;
+}
+
+.relative{
+    position: relative;
+}
+
+.active {
+  color: var(--black-color);
+  font-size: 1.5rem;
+}
+
+.badge{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.sidebar-user-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: none;
+}

@@ -26,4 +26,6 @@
 
 .player-page{
 background-color: var(--lynx-white-color);
+min-height: 100vh;
 }
+

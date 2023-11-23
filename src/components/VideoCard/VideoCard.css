@@ -18,14 +18,27 @@
 }
 
 .section-video-card-right {
-    width: 70%;
-    padding: 2rem;
-  }
-  
+  width: 70%;
+  padding: 2rem;
+}
 
-.yt-holder { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.yt-holder {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
 
-.yt-holder iframe, .yt-holder object, .yt-holder embed { position: absolute; top: 0; left: 0; width: 90%; height: 90%; }
+.yt-holder iframe,
+.yt-holder object,
+.yt-holder embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
 
 .student {
   position: relative;
@@ -47,9 +60,6 @@
   top: 1rem;
   right: 1.5rem;
   background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0.1rem 0.2rem;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
@@ -81,25 +91,20 @@
 
 .tools {
   width: 100%;
+  padding-left: 1.5rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .tool {
   margin: 1rem 1rem 0 0;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .tool-icon {
   width: 3rem;
   height: 3rem;
   background-color: var(--lynx-gray-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;

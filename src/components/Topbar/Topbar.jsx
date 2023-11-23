@@ -6,18 +6,18 @@ const Topbar = () => {
     <div className="topbar">
       <div className="topbar-info">
         <section className="section-topbar-left">
-          <div className="arrow-left">
+          <div className="arrow-left flex-center">
             <i className="fa-solid fa-chevron-left"></i>
           </div>
           <h1 className="page-heading">Basic Mathematics 101</h1>
         </section>
         <section className="section-topbar-right">
-          <button className="btn-topbar">
-            <i className="fa-solid fa-phone"></i>
+          <button className="btn-topbar flex-center">
+            <i className="fa-solid fa-phone flex-center"></i>
             Call Teacher
           </button>
-          <button className="btn-topbar support">
-            <i className="fa-solid fa-headset"></i>
+          <button className="btn-topbar flex-center support">
+            <i className="fa-solid fa-headset flex-center"></i>
             Support
           </button>
         </section>
@@ -30,7 +30,7 @@ const Topbar = () => {
           <li className="nav-item">
             <i className="fa-solid fa-chalkboard"></i> Whiteboard
           </li>
-          <li className="nav-item nav-active">
+          <li className="nav-item nav-active flex-center">
             <i className="fa-brands fa-youtube"></i> Videos
           </li>
           <li className="nav-item">

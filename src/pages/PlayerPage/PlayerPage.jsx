@@ -9,7 +9,7 @@ const PlayerPage = () => {
     <div className="player-page">
       <Topbar />
       <Sidebar />
-      <VideoCard/>
+      <VideoCard />
     </div>
   );
 };

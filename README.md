@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# LMS Video Player App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+1. [Introduction](#introduction)
+2. [Project Structure](#project-structure)
+3. [Design Decisions](#design-decisions)
+4. [Assumptions](#assumptions)
+5. [Source Code](#source-code)
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+This is a simple React application designed as a Learning Management System (LMS) video player for students. The application is structured with a component-based architecture, utilizing separate components for different UI elements.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project structure is organized as follows:
 
-### `npm test`
+- `src/`
+  - `assets/`
+    - External images for the LMS logo.
+  - `components/`
+    - `Sidebar/`
+      - `Sidebar.jsx`
+      - `Sidebar.css`
+    - `Topbar/`
+      - `Topbar.jsx`
+      - `Topbar.css`
+    - `VideoCard/`
+      - `VideoCard.jsx`
+      - `VideoCard.css`
+  - `pages/`
+    - `PlayerPage/`
+      - `PlayerPage.jsx`
+      - `PlayerPage.css`
+  - `App.jsx`
+  - `App.css`
+  - `index.js`
+  - `index.css`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design Decisions
 
-### `npm run build`
+1. **Component-Based Architecture:**
+   - Encapsulation of major UI elements into separate React components for modularity and reusability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Styling:**
+   - Use of CSS for styling with separate files for each component, maintaining separation of concerns.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Font Awesome Icons:**
+   - Integration of Font Awesome icons for consistent and visually appealing iconography.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Flexbox for Layout:**
+   - Extensive use of Flexbox for flexible and dynamic component arrangements.
 
-### `npm run eject`
+5.  **Fixed Positioning:**
+   - Fixed positioning for Sidebar and Topbar components to remain static during scrolling.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. **Responsive Design:**
+   - Layout adjusts to different screen sizes for a responsive user interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. **External Image References:**
+   - Use of external image references for user avatars and LMS logos, allowing dynamic changes without modifying code.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. **Conditional Styling:**
+   - Application of conditional styling for active navigation items and notification badges.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9. **YouTube Embedding:**
+   - Integration of embedded YouTube video using an iframe in the VideoCard component.
 
-## Learn More
+10. **Functional Components:**
+    - Implementation of all React components as functional components.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Assumptions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application is assumed to be a Learning Management System (LMS) video player for students.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Source Code
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/OmkarPatil50/LMS-page
